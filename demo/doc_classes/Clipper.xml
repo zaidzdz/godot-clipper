@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class name="Clipper" inherits="Object" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/godotengine/godot/master/doc/class.xsd">
+	<brief_description>
+		Clipper2 port/wrapper for Godot.
+	</brief_description>
+	<description>
+	</description>
+	<tutorials>
+	</tutorials>
+	<methods>
+		<method name="difference_polygons">
+			<return type="Array" />
+			<param index="0" name="subject" type="PackedVector2Array" />
+			<param index="1" name="clip" type="PackedVector2Array" />
+			<description>
+				Returns the difference of two polygons to an Array containing two PackedVector2Arrays, the subject at [0] and the clip at [1].
+			</description>
+		</method>
+		<method name="intersect_polygons">
+			<return type="Array" />
+			<param index="0" name="subject" type="PackedVector2Array" />
+			<param index="1" name="clip" type="PackedVector2Array" />
+			<description>
+				Returns the intersection of two polygons to an Array containing two PackedVector2Arrays, the subject at [0] and the clip at [1].
+			</description>
+		</method>
+		<method name="union_polygons">
+			<return type="Array" />
+			<param index="0" name="subject" type="PackedVector2Array" />
+			<param index="1" name="clip" type="PackedVector2Array" />
+			<description>
+				Returns the union of two polygons to an Array containing two PackedVector2Arrays, the subject at [0] and the clip at [1].
+			</description>
+		</method>
+		<method name="xor_polygons">
+			<return type="Array" />
+			<param index="0" name="subject" type="PackedVector2Array" />
+			<param index="1" name="clip" type="PackedVector2Array" />
+			<description>
+				Returns the XOR of two polygons to an Array containing two PackedVector2Arrays, the subject at [0] and the clip at [1].
+			</description>
+		</method>
+	</methods>
+</class>

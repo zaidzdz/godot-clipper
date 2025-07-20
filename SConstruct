@@ -17,6 +17,7 @@ sources = Glob("src/*.cpp")
 # Add Clipper2Lib source files
 sources += Glob("src/Clipper2/CPP/Clipper2Lib/src/*.cpp")
 
+
 # Build the shared library (adjust as needed)
 if env["platform"] == "macos":
     library = env.SharedLibrary(
@@ -43,3 +44,9 @@ else:  # Windows/Linux/etc
     )
 
 Default(library)
+if env["target"] in ["editor", "template_debug"]:
+    try:
+        doc_data = env.GodotCPPDocData("src/gen/doc_data.gen.cpp", source=Glob("doc_classes/*.xml"))
+        sources.append(doc_data)
+    except AttributeError:
+        print("Not including class reference as we're targeting a pre-4.3 baseline.")

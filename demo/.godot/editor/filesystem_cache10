@@ -1,8 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1753029602
+::res://::1753046115
 icon.svg::CompressedTexture2D/CompressedTexture2D::4174702362334657319::1752960226::1752960231::1::::<><><>0<>0<>8e8e1afdd5e977f956932fd6a3e88249<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-main.tscn::PackedScene::2728905924855055116::1753026766::0::1::::<><><>0<>0<><>::
-new_script.gd::GDScript::3063903204266037649::1753026766::0::1::::<>Clipper<><>0<>0<><>::
-::res://bin/::1752960230
-Clipper.gdextension::GDExtension::3577859967579829402::1753026772::0::1::::<><><>0<>0<><>::
-::res://bin/libgdexample.macos.template_debug.framework/::1753029573
+main.tscn::PackedScene::2728905924855055116::1753046048::0::1::::<><><>0<>0<><>::uid://bjwgbkc0x24bt::::res://new_script.gd
+new_script.gd::GDScript/GDScript::3063903204266037649::1753030356::0::1::::<>Polygon2D<><>0<>0<><>::
+::res://bin/::1753045935
+Clipper.gdextension::GDExtension/GDExtension::3577859967579829402::1753026772::0::1::::<><><>0<>0<><>::
+::res://bin/libgdexample.macos.editor.framework/::1753045935
+::res://bin/libgdexample.macos.template_debug.framework/::1753045375
+::res://doc_classes/::1753045455
+Clipper.xml::TextFile/TextFile::-1::1753045455::0::1::::<><><>0<>0<><>::
