@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://be45xgi1osjuq"]
+
+[ext_resource type="Script" uid="uid://bjwgbkc0x24bt" path="res://new_script.gd" id="1_ig7tw"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+color = Color(0.812015, 0.000900815, 0.873045, 1)
+script = ExtResource("1_ig7tw")
+subject = PackedVector2Array(0, 0, 3.15, 7.2, -7.055, 3.555)
+clip = PackedVector2Array(0, 0, 0.66, 17.515, -5.3, 3.335)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(32.48, 32.48)
+
+[node name="Polygon2D2" type="Polygon2D" parent="."]
