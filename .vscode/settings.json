@@ -16,6 +16,6 @@
         "string": "cpp",
         "string_view": "cpp",
         "unordered_map": "cpp"
-    },
-    "cmake.sourceDirectory": "/Volumes/Zaids_Nvme/zaidzamani/Desktop/Tech_Stuff/ClipperGDExstenion/godot-cpp"
+    }
+
 }
